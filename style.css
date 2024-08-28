@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.7rem;
+}
+
+#logoText span {
+  display: inline-block;
+}
+
+nav .logo i {
+  rotate: 45deg;
+  display: inline-block;
+}
+
+nav .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav .menu h4 {
+  font-size: 1rem;
+  cursor: pointer;
+}
+nav .menu button {
+  padding: 5px 20px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.banner {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.banner-l {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: star;
+}
+
+.banner-l h2 {
+  font-size: 3.5rem;
+  width: 85%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.banner-l p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 27px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.banner-l button {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.banner-r {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-r img {
+  height: 350px;
+}
+
+.collaboration {
+  height: 100vh;
+  width: 100%;
+}
+.move {
+  background-color: #b9ff66;
+  display: flex;
+  padding: 3vw 0;
+  gap: 40px;
+  overflow: hidden;
+}
+.marque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+  transform: translateX(-100%);
+}
+.marque h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.marque i {
+  font-size: 3rem;
+}
+
+.cards {
+  height: 1000px;
+}
